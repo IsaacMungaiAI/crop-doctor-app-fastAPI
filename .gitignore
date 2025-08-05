@@ -1,1 +1,21 @@
 .env
+.idea
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Cache and logs
+*.log
+.cache/
+*.sqlite3
+*.db
+
+# macOS hidden files
+.DS_Store
