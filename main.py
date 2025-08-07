@@ -93,7 +93,7 @@ async def predict(
     prompt= f"""
     This {model_type} plant has been diagnosed with {predicted_class_name}.
     Explain in simple terms what this disease is, how it harms the crop, and how the farmer can treat and prevent it to increase yields.
-    Mention any specific pesticides or herbicides that can help.
+    Mention any specific pesticides or herbicides that can help. If the plant is healthy provide a good response for the same
     """
 
     try:
